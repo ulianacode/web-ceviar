@@ -1,0 +1,566 @@
+body {
+    margin: 0;
+}
+.header {
+    width: 100%;
+}
+.header__container {
+    width: 1860px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.header__top {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    height: 80px;
+    width: 100%;
+}
+
+.top__city {
+    display: flex;
+    margin-left: 20px;
+
+}
+.city__location-name {
+    margin-left: 13px;
+
+    color: rgb(0, 26, 52, 1);
+    font-size: 15px;
+}
+.city__location-img {
+    margin-left: 25px;
+}
+
+.city__location-description {
+    margin: 0;
+}
+.top__navigation {
+    margin-left: 0px;
+}
+.nav__list {
+    display: flex;
+    list-style-type: none;
+    width: 1200px;
+    font-size: 18px;
+}
+.nav-list__element {
+    margin-left:  58px;
+}
+.nav-list__element_first {
+    margin-left: 100px  !important;
+}
+.top__connection {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+}
+.connection__number {
+    margin-right: 40px;
+    width: 200px;
+
+    font-size: 22px;
+}
+.connection__application {
+    height: 50px;
+    width: 190px;
+}
+.header__middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    flex-grow: 1;
+    height: 90px;
+    width: 100%;
+    
+}
+.middle__logo {
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+}
+.middle__logo-name {
+    width: 230px;
+
+    margin-left: 15px;
+
+    color: rgb(0, 26, 52, 1);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: rgb(90, 108, 125, 1);
+}
+.middle__input {
+    color: rgb(90, 108, 125, 1);
+    font-size: 15px;
+    font-family: 'RoadRadio';
+}
+.middle__access {
+    font-family: 'RoadRadio';
+    font-weight: 900;
+}
+
+.bottom__navigation {
+    width: 100%;
+}
+.bottom-nav__list {
+    display: flex; 
+    justify-content: space-between;
+
+    padding: 0; 
+    margin-left: 170px;
+
+    list-style: none;
+}
+
+.bottom-nav-list__element {
+    text-align: center; 
+}
+
+.bottom-nav-list__element-link {
+    color: rgb(90, 108, 125, 1);
+    font-family: 'RoadRadio';
+
+    width: 100%;
+    height: 100%;
+
+    
+    text-decoration: none; 
+}
+.access__login-name {
+    color: rgb(0, 26, 52, 1);
+    font-size: 15px;
+}
+.access__favourite-name {
+    color: rgb(0, 26, 52, 1);
+    font-size: 15px;
+}
+.city__location-description {
+    color: rgb(90, 108, 125, 1);
+    font-size: 15px;
+}
+.connection__number-name {
+    color: rgb(0, 26, 52, 1);
+    font-weight: 900;
+}
+.connection__application {
+    color: rgb(255, 255, 255, 1);
+    background-color: rgb(241, 94, 34, 1);
+    border-width: 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 900;
+}
+.bottom__application {
+    width: 151px;
+    height: 46px;
+
+
+    color: rgb(255, 255, 255, 1);
+    background-color: rgb(241, 94, 34, 1);
+    border-width: 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 900;
+
+    margin-left: 20px;
+}
+.nav {
+    font-size: 15px;
+}
+.nav-list__element-link {
+    color: rgb(0, 26, 52, 1);
+    width: 100%;
+    height: 100%;
+
+    
+    text-decoration: none; 
+}
+.nav-list__element-link:hover {
+    color: rgb(241, 94, 34, 1);
+}
+.description-name {
+    font-size: 14px;
+    color: rgb(90, 108, 125, 1);
+}
+.description-cost {
+    font-size: 26px;
+    color: rgb(0, 26, 52, 1);
+}
+.header__bottom  {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    height: 80px;
+    width: 100%;
+}
+.bottom-nav {
+    font-size: 16px;
+    
+}
+
+
+.open-card__actions {
+    display: flex;
+}
+.actions__hit {
+    display: flex;
+    width: 151px;
+    height: 40px;
+
+    background-color: #012250;
+    border-radius: 111px;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.actions__like {
+    display: flex;
+
+    width: 151px;
+    height: 40px;
+    
+    background-color: #FFFFFF;
+
+    border-radius: 111px;
+    border-color: #FFFFFF;
+    border: none;
+
+    color: #F15E22;
+
+    cursor: pointer;
+}
+.actions__share {
+    display: flex;
+
+    width: 151px;
+    height: 40px;
+    
+    background-color: #FFFFFF;
+
+    border-radius: 111px;
+    border: none;
+
+    color: #001A34;
+
+    cursor: pointer;
+}
+.section{
+    width: 100%;
+    margin-top: 986px;
+}
+.section__container {
+    width: 1820px;
+    margin: 0 auto;
+}
+.buy-with__title {
+    font-size: 40px;
+}
+.buy-with__card {
+    margin-top:38px;
+}
+.buy-with__card__list {
+    padding: 0;
+    width: 1800px;
+    height: 367px;
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+.cart_button__cost--link {
+    font-size: 16px;
+}
+.buy-with-card-list__element {
+    width: 360px;
+}
+.buy-with-card-list__element--name {
+    margin-top: 18px;
+    font-size: 15px;
+    color: #001A34;
+}
+.buy-with-card-list__cart {
+    display: flex;
+    border-color: rgb(0, 0, 0);
+    border-style: solid; 
+    border-width: 1px; 
+    justify-content: space-between;
+    height: 44px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cart_button {
+    width: 132px;
+    border-left: 1px solid rgb(0, 0, 0); 
+    display: flex;
+    justify-content: space-around;
+}
+.cart__cost {
+    margin-left: 15px; 
+    margin-top: 13px; 
+    padding: 0;
+    color: #F15E22;
+}
+.cart__cost__old {
+    margin-left: 15px; 
+    margin-top: 13px; 
+    padding: 0;
+}
+.cart_button__cost--link {
+    display: inline-block; 
+    margin-top: 12px;
+    color: #F15E22;
+}
+.cart_button__cost--img {
+    margin-top: 15px;
+}
+.open-card {
+    width: 1860px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.open-card__moving {
+    display: flex;
+    flex-direction: row;
+}
+.moving__path {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.moving__path__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.path-list__element {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.path-list__element--img {
+    margin-left: 5px; 
+}
+
+
+.path-list__element--name {
+    color: rgb(0, 26, 52, 1);
+    width: 100%;
+    height: 100%;
+
+    text-decoration: none; 
+}
+.path-list__element--name:hover {
+    color: rgb(241, 94, 34, 1);
+}
+
+  
+.hits__title {
+    font-size: 40px;
+}
+.hits__card {
+    margin-top:38px;
+}
+.hits__card__list {
+    padding: 0;
+    width: 1800px;
+    height: 367px;
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+.hits-card-list__element {
+    width: 360px;
+}
+.hits-card-list__element--name {
+    margin-top: 18px;
+    font-size: 15px;
+}
+.hits-card-list__cart {
+    display: flex;
+    border-color: rgb(0, 0, 0);
+    border-style: solid; 
+    border-width: 1px; 
+    justify-content: space-between;
+    height: 44px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.section__hits {
+    margin-top: 65px;
+}
+.new__title {
+    font-size: 40px;
+}
+.new__card {
+    margin-top:38px;
+}
+.new__card__list {
+    padding: 0;
+    width: 1800px;
+    height: 367px;
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+.new-card-list__element {
+    width: 360px;
+}
+.new-card-list__element--name {
+    margin-top: 18px;
+    font-size: 15px;
+}
+.new-card-list__cart {
+    display: flex;
+    border-color: rgb(0, 0, 0);
+    border-style: solid; 
+    border-width: 1px; 
+    justify-content: space-between;
+    height: 44px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.section__new {
+    margin-top: 67px;
+}
+.recommends__title {
+    font-size: 40px;
+}
+.recommends__card {
+    margin-top:38px;
+}
+.recommends__card__list {
+    padding: 0;
+    width: 1800px;
+    height: 367px;
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+.recommends-card-list__element {
+    width: 360px;
+}
+.recommends-card-list__element--name {
+    margin-top: 18px;
+    font-size: 15px;
+}
+.recommends-card-list__cart {
+    display: flex;
+    border-color: rgb(0, 0, 0);
+    border-style: solid; 
+    border-width: 1px; 
+    justify-content: space-between;
+    height: 44px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.section__recommends {
+    margin-top: 65px;
+}
+.ceo-information {
+    width: 100%;
+}
+.ceo-information__container {
+    width: 1860px;
+    margin: 0 auto;
+
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 56px;
+
+    display: flex;
+    flex-direction: column;
+}
+.ceo-information__text-title {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.ceo-information__text1 {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.ceo-information__text2 {
+    margin-top: 40px;
+    font-size: 16px;
+}
+.ceo-information__text3 {
+    margin-top: 63px;
+    font-size: 16px;
+}
+.footer {
+    width: 100%;
+    margin-top: 53px;
+}
+.footer__container {
+    width: 1860px;
+    margin: 0 auto;
+
+    padding-left: 50px;
+    padding-right: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(0, 26, 52, 1);
+}
+
+.footer__main {
+    padding-top: 70px;
+
+    display: flex;
+    flex-direction: row;
+}
+.main__information {
+    width: 390px;
+}
+.company__description {
+    width: 250px;
+    padding-top: 5px;
+
+    text-align: center;
+
+    color: rgba(90, 108, 125, 1);
+}
+.footer__additives {
+    display: flex;
+    flex-direction: column;
+}
+.company__line {
+    padding-left: 90px;
+    
+}
+.open-card__bonus {
+    background-color: #30BA3126;
+}

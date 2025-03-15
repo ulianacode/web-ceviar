@@ -1,0 +1,823 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caviar</title>
+  </head>
+  <body>
+   <header class="header">
+    <div class="header__container">
+      <!-- Первый уровень header -->
+      <div class="header__top top">
+        <div class="top__city"> 
+          <p class="city__location-description">Ваш город:</p>
+          <img width="15" height="18" class="city__location-img" src="./image/location.svg"/>
+          <span class="city__location-name">Москва</span>
+        </div>
+        <nav class="top__navigation nav">
+          <ul class="nav__list nav-list">
+            <li class="nav-list__element_first">
+              <a href="#" class="nav-list__element-link">
+                Доставка
+              </a>
+            </li>
+            <li class="nav-list__element">
+              <a href="#" class="nav-list__element-link">
+                Оплата
+              </a>
+            </li>
+            <li class="nav-list__element">
+              <a href="#" class="nav-list__element-link">
+                Рецепты
+              </a>
+            </li>
+            <li class="nav-list__element">
+              <a href="#" class="nav-list__element-link">
+                Статьи
+              </a>
+            </li>
+            <li class="nav-list__element">
+              <a href="#" class="nav-list__element-link">
+                Рейтинг на Яндекс Метрике
+              </a>
+            </li>
+            <li class="nav-list__element">
+              <a href="#" class="nav-list__element-link">
+                Гарантия качества
+              </a>
+            </li>
+            <li class="nav-list__element">
+              <a href="#" class="nav-list__element-link">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="top__connection connection">
+          <div class="connection__number">
+            <img width="17" height="17" class="connection__number-img" src="./image/phone.svg"/>
+            <a href="tel:+74959795189" class="connection__number-name">+7 495 979 51 89</a>
+          </div>
+          <button class="connection__application">
+            <span>Оставить заявку</span>
+          </button>
+          </div>
+      </div>
+      <!-- Второй уровень header -->
+      <div class="header__middle middle"> 
+        <div class="middle__logo">
+          <img width="270" height="35" class="middle__logo-img" src="./image/logo.svg"/>
+          <p class="middle__logo-name">Продажа свежих морепродуктов с доставкой по Москве и МО</p>
+        </div>
+        <input class="middle__input" placeholder="Поиск по товарам, рецептам и статьям" />
+        <div class="middle__access">
+          <div class="access__login">
+            <img width="16" height="16" class="access__login-img" src="./image/login.svg"/>
+            <a href="#" class="access__login-name">Войти</a>
+          </div>
+          <div class="access__favourite">
+            <img width="16" height="16" class="access__favourite-img" src="./image/favourite.svg"/>
+            <a href="#" class="access__favourite-name">Избранное</a>
+          </div>
+          </div>
+          <div class="middle__recycle-bin">
+            <img width="50" height="50" class="middle__recycle-bin-img" src="./image/recycle-bin.svg"/>
+            <div class="recycle-bin__description">
+              <span class="description-name">Ваша корзина</span>
+              <span class="description-cost">2540 ₽</span>
+            </div>
+          </div>
+        </div>
+       <!-- Третий уровень header -->
+      <div class="header__bottom bottom">
+
+        <button class="bottom__application">
+          <span>Каталог</span>
+        </button>
+        <nav class="bottom__navigation bottom-nav">
+          <ul class="bottom-nav__list bottom-nav-list">
+            <li class="bottom-nav-list__element">
+              <img width="22" height="22" class="bottom-nav-list__element--img" src="./image/sale.svg"/>
+              <a href="#" class="bottom-nav-list__element-link">
+                Акции
+              </a>
+            </li>
+            <li class="bottom-nav-list__element">
+              <img width="24" height="24" class="bottom-nav-list__element--img" src="./image/fish2.svg"/>
+              <a href="#" class="bottom-nav-list__element-link">
+                Красная рыба
+              </a>
+            </li>
+            <li class="bottom-nav-list__element">
+              <img width="16" height="23" class="bottom-nav-list__element--img" src="./image/shrimp.svg"/>
+              <a href="#" class="bottom-nav-list__element-link">
+                Креветки
+              </a>
+            </li>
+            <li class="bottom-nav-list__element">
+              <img width="23" height="23" class="bottom-nav-list__element--img" src="./image/crab.svg"/>
+              <a href="#" class="bottom-nav-list__element-link">
+                Краб
+              </a>
+            </li>
+            <li class="bottom-nav-list__element">
+              <img width="28" height="28" class="bottom-nav-list__element--img" src="./image/delicacies.svg"/>
+              <a href="#" class="bottom-nav-list__element-link">
+                Деликатесы
+              </a>
+            </li>
+            <li class="bottom-nav-list__element">
+              <img width="22" height="22" class="bottom-nav-list__element--img" src="./image/fish.svg"/>
+              <a href="#" class="bottom-nav-list__element-link">
+                Рыба
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  
+  
+  </header>
+  <section class="open-card">
+    <div class="open-card__moving">
+      <img width="13" height="13" class="moving__home" src="../image/home.svg"/>
+      <div class="moving__path">
+        <ul class="moving__path__list path-list">
+          <li class="path-list__element">
+            <a href="#" class="path-list__element--name">Главная</a>
+            <img width="6" height="10" class="path-list__element--img" src="./image/path.svg"/>
+          </li>
+          <li class="path-list__element">
+            <a href="#" class="path-list__element--name">Каталог</a>
+            <img width="6" height="10" class="path-list__element--img" src="./image/path.svg"/>
+          </li>
+          <li class="path-list__element">
+            <a href="#" class="path-list__element--name">Икра</a>
+            <img width="6" height="10" class="path-list__element--img" src="./image/path.svg"/>
+          </li>
+          <li class="path-list__element">
+            <a href="#" class="path-list__element--name">Икра лосося</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="open-card__actions">
+      <button class="actions__hit">
+        <img width="16" height="16" class="actions__home" src="../image/king.svg"/>
+        <p class="actions__title">Хит продаж</p>
+      </button>
+      <button class="actions__like">
+        <p class="like__title">В избранное</p>
+        <img width="16" height="16" class="like__img" src="../image/like.svg"/>
+      </button>
+      <button class="actions__share">
+        <p class="share__title">Поделиться</p>
+        <img width="14" height="14" class="share__img" src="../image/share.svg"/>
+      </button>
+    </div>
+    <div class="open-card__preview">
+      <div class="preview__three-img">
+        <img width="253" height="165" class="three-img__first" src="./image/top-caviar.png"/>
+        <img width="253" height="165" class="three-img__second" src="./image/open-caviar.png"/>
+        <img width="253" height="165" class="three-img__third" src="./image/close-caviar.png"/>
+      </div>
+      <img width="724" height="551" class="preview__big-img" src="./image/caviar.jpg"/>
+    </div>
+    <div class="open-card__bonus">
+      <p class="bonus__title">Закажите на 3000₽
+        и получите</p>
+      <img width="27" height="30" class="bonus__rubl" src="./image/rubl.svg"/>
+      <p class="bonus__bonus-account">30₽ на бонусный счет</p>
+      <img width="30" height="30" class="bonus__car" src="./image/car.svg"/>
+      <p class="bonus__free-delivery">Бесплатную доставку
+        в 4-х часовой интервал</p>
+    <div class="bonus__remainder">
+      <p class="remainder__title">осталось</p>
+      <p class="remainder__number">2490₽</p>
+    </div>
+    <div class="bonus__progress">
+      <img width="239" height="10" class="progress__bar" src="./image/progress.svg"/>
+      <div class="progress__min-max">
+        <p class="min-max__min">590₽</p>
+        <p class="min-max__max">3000₽</p>
+      </div>
+    </div>
+    </div>
+    <div class="open-card__buy">
+      <p class="buy__title">Икра красная горбуши 250 г</p>
+      <p class="buy__description">Вылов 2021 года, Сахалин</p>
+      <div class="buy__rating">
+        <div class="rating__stars">
+          <ul class="rating__stars__list stars-list">
+            <li class="stars-list__element">
+              <img width="16" height="16" class="stars-list__element--img" src="./image/star.svg"/>
+            </li>
+            <li class="stars-list__element">
+              <img width="16" height="16" class="stars-list__element--img" src="./image/star.svg"/>
+            </li>
+            <li class="stars-list__element">
+              <img width="16" height="16" class="stars-list__element--img" src="./image/star.svg"/>
+            </li>
+            <li class="stars-list__element">
+              <img width="16" height="16" class="stars-list__element--img" src="./image/star.svg"/>
+            </li>
+            <li class="stars-list__element">
+              <img width="16" height="16" class="stars-list__element--img" src="./image/stargray.svg"/>
+            </li>
+          </ul>
+        </div>
+        <p class="rating__title">883 отзыва</p>
+      </div>
+      <div class="buy__price">
+        <p class="price__sale">1 800 ₽</p>
+        <p class="price__actual">1 200 ₽</p>
+      </div>
+      <button class="buy__add-to-cart">
+        Добавить в корзину
+      </button>
+      <button class="buy__buy-one-click">
+        Купить в один клик
+      </button>
+      <p class="buy__delivery">Доставим 15.07.2021</p>
+    </div>
+    <nav class="open-card__navigation"> 
+      <ul class="open-card__navigation__list open-card-navigation-list">
+        <li class="open-card-navigation-list__element">
+          <button class="element__about">
+            Купить в один клик
+          </button>
+        </li>
+        <li class="open-card-navigation-list__element">
+          <button class="element__review">
+            Отзывы
+          </button>
+        </li>        
+        <li class="open-card-navigation-list__element">
+          <button class="element__question-answer">
+            Вопрос/Ответ
+          </button>
+        </li>       
+         <li class="open-card-navigation-list__element">
+          <button class="element__recipe">
+            Рецепты
+          </button>
+        </li>        
+        <li class="open-card-navigation-list__element">
+          <button class="element__sertificate">
+            Сертификаты
+          </button>
+        </li>
+        <li class="open-card-navigation-list__element">
+          <button class="element__warehouse">
+            Склады
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div class="open-card__description">
+      <div class="description__titles"> 
+        <ul class="description__titles__list description-titles-list">
+          <li class="description-titles-list__element">
+            <p class="description-titles-list__element--name">Наименование ................</p>
+          </li>
+          <li class="description-titles-list__element">
+            <p class="description-titles-list__element--name">Вес ................</p>
+          </li>
+          <li class="description-titles-list__element">
+            <p class="description-titles-list__element--name">Срок хранения ................</p>
+          </li>
+          <li class="description-titles-list__element">
+            <p class="description-titles-list__element--name">Пищевая ценность на 100 гр. ................</p>
+          </li>
+          <li class="description-titles-list__element">
+            <p class="description-titles-list__element--name">Энергетическая ценность ................</p>
+          </li>
+          <li class="description-titles-list__element">
+            <p class="description-titles-list__element--name">Вылов ................</p>
+          </li>
+          <li class="description-titles-list__element">
+            <p class="description-titles-list__element--name">Упаковка ................</p>
+          </li>
+        </ul>
+      </div>
+      <div class="description__inf"> 
+        <ul class="description__inf__list description-inf-list">
+          <li class="description-infs-list__element">
+            <p class="description-inf-list__element--name">Икра лососевая, нерка</p>
+          </li>
+          <li class="description-inf-list__element">
+            <p class="description-inf-list__element--name">250 гр.</p>
+          </li>
+          <li class="description-inf-list__element">
+            <p class="description-inf-list__element--name">6 месяцев при температуре -4 -6°С. Срок хранения в бытовом холодильнике: до 7 суток. В открытом  состоянии до 3 суток.</p>
+          </li>
+          <li class="description-inf-list__element">
+            <p class="description-inf-list__element--name">Белки - 32г., жиры - 13г., углеводы - 1 г.</p>
+          </li>
+          <li class="description-inf-list__element">
+            <p class="description-inf-list__element--name">240 ккал</p>
+          </li>
+          <li class="description-inf-list__element">
+            <p class="description-inf-list__element--name">Камчатка 2021</p>
+          </li>
+          <li class="description-inf-list__element">
+            <p class="description-inf-list__element--name">Пластиковая банка, герметичная</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <img width="1839" height="2" class="open-card__line" src="../image/linelong.svg"/>
+  </section>
+  <section class="section">
+    <div class="section__container">
+      <div class="section__buy-with  buy-with">
+        <p class="buy-with__title">С этим товаром покупают</p>
+        <div class="buy-with__card"> 
+          <ul class="buy-with__card__list buy-with-card-list">
+            <li class="buy-with-card-list__element">
+              <img width="340" height="260" class="hits-card-list__element--img" src="./image/shrimps.jpg"/>
+              <p class="buy-with-card-list__element--name">Креветки очищенные</p>
+              <div class="buy-with-card-list__cart cart">
+                <p class="cart__cost">4 200 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="buy-with-card-list__element">
+              <img width="340" height="260" class="buy-with-card-list__element--img" src="./image/redfish.jpg"/>
+              <p class="buy-with-card-list__element--name">Филе лосося, Норвегия, охлажденный</p>
+              <div class="buy-with-card-list__cart cart">
+                <p class="cart__cost">2 500 Ꝑ/кг</p>
+                <p class="cart__cost__old">5 000 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="buy-with-card-list__element">
+              <img width="340" height="260" class="buy-with-card-list__element--img" src="./image/caviar.jpg"/>
+              <p class="buy-with-card-list__element--name">Красная икра нерки, 250 г/упаковка</p>
+              <div class="buy-with-card-list__cart cart">
+                <p class="cart__cost">1 200 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="buy-with-card-list__element">
+              <img width="340" height="260" class="buy-with-card-list__element--img" src="./image/keta.jpg"/>
+              <p class="buy-with-card-list__element--name">Палочки кеты, 1000 г/упаковка</p>
+              <div class="buy-with-card-list__cart cart">
+                <p class="cart__cost">2 500 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="buy-with-card-list__element">
+              <img width="340" height="260" class="buy-with-card-list__element--img" src="./image/halibut.jpg"/>
+              <p class="buy-with-card-list__element--name">Филе палтуса</p>
+              <div class="buy-with-card-list__cart cart">
+                <p class="cart__cost">2 800 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section__hits hits">
+        <p class="hits__title">Хиты продаж</p>
+        <div class="hits__card"> 
+          <ul class="hits__card__list hits-card-list">
+            <li class="hits-card-list__element">
+              <img width="340" height="260" class="hits-card-list__element--img" src="./image/shrimps.jpg"/>
+              <p class="hits-card-list__element--name">Креветки очищенные</p>
+              <div class="hits-card-list__cart cart">
+                <p class="cart__cost">4 200 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="hits-card-list__element">
+              <img width="340" height="260" class="recommends-card-list__element--img" src="./image/redfish.jpg"/>
+              <p class="hits-card-list__element--name">Филе лосося, Норвегия, охлажденный</p>
+              <div class="hits-card-list__cart cart">
+                <p class="cart__cost">2 500 Ꝑ/кг</p>
+                <p class="cart__cost__old">5 000 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="hits-card-list__element">
+              <img width="340" height="260" class="hits-card-list__element--img" src="./image/caviar.jpg"/>
+              <p class="hits-card-list__element--name">Красная икра нерки, 250 г/упаковка</p>
+              <div class="hits-card-list__cart cart">
+                <p class="cart__cost">1 200 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="hits-card-list__element">
+              <img width="340" height="260" class="hits-card-list__element--img" src="./image/keta.jpg"/>
+              <p class="hits-card-list__element--name">Палочки кеты, 1000 г/упаковка</p>
+              <div class="hits-card-list__cart cart">
+                <p class="cart__cost">2 500 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="hits-card-list__element">
+              <img width="340" height="260" class="hits-card-list__element--img" src="./image/halibut.jpg"/>
+              <p class="hits-card-list__element--name">Филе палтуса</p>
+              <div class="hits-card-list__cart cart">
+                <p class="cart__cost">2 800 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+          </ul>
+    </div>
+      </div>
+      <div class="section__new new">
+        <p class="hits__title">Новинки</p>
+        <div class="new__card"> 
+          <ul class="new__card__list new-card-list">
+            <li class="new-card-list__element">
+              <img width="340" height="260" class="hits-card-list__element--img" src="./image/shrimps.jpg"/>
+              <p class="new-card-list__element--name">Креветки очищенные</p>
+              <div class="new-card-list__cart cart">
+                <p class="cart__cost">4 200 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="new-card-list__element">
+              <img width="340" height="260" class="recommends-card-list__element--img" src="./image/redfish.jpg"/>
+              <p class="new-card-list__element--name">Филе лосося, Норвегия, охлажденный</p>
+              <div class="new-card-list__cart cart">
+                <p class="cart__cost">2 500 Ꝑ/кг</p>
+                <p class="cart__cost__old">5 000 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="new-card-list__element">
+              <img width="340" height="260" class="new-card-list__element--img" src="./image/caviar.jpg"/>
+              <p class="new-card-list__element--name">Красная икра нерки, 250 г/упаковка</p>
+              <div class="new-card-list__cart cart">
+                <p class="cart__cost">1 200 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="new-card-list__element">
+              <img width="340" height="260" class="new-card-list__element--img" src="./image/keta.jpg"/>
+              <p class="new-card-list__element--name">Палочки кеты, 1000 г/упаковка</p>
+              <div class="new-card-list__cart cart">
+                <p class="cart__cost">2 500 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="new-card-list__element">
+              <img width="340" height="260" class="new-card-list__element--img" src="./image/halibut.jpg"/>
+              <p class="new-card-list__element--name">Филе палтуса</p>
+              <div class="new-card-list__cart cart">
+                <p class="cart__cost">2 800 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+          </ul>
+    </div>
+      </div>
+      <div class="section__recommends recommends">
+        <p class="recommends__title">Рекомендуем</p>
+        <div class="recommends__card"> 
+          <ul class="recommends__card__list recommends-card-list">
+            <li class="recommends-card-list__element">
+              <img width="340" height="260" class="hits-card-list__element--img" src="./image/shrimps.jpg"/>
+              <p class="recommends-card-list__element--name">Креветки очищенные</p>
+              <div class="recommends-card-list__cart cart">
+                <p class="cart__cost">4 200 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="recommends-card-list__element">
+              <img width="340" height="260" class="recommends-card-list__element--img" src="./image/redfish.jpg"/>
+              <p class="recommends-card-list__element--name">Филе лосося, Норвегия, охлажденный</p>
+              <div class="recommends-card-list__cart cart">
+                <p class="cart__cost">2 500 Ꝑ/кг</p>
+                <p class="cart__cost__old">5 000 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="recommends-card-list__element">
+              <img width="340" height="260" class="recommends-card-list__element--img" src="./image/caviar.jpg"/>
+              <p class="recommends-card-list__element--name">Красная икра нерки, 250 г/упаковка</p>
+              <div class="recommends-card-list__cart cart">
+                <p class="cart__cost">1 200 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="recommends-card-list__element">
+              <img width="340" height="260" class="recommends-card-list__element--img" src="./image/keta.jpg"/>
+              <p class="recommends-card-list__element--name">Палочки кеты, 1000 г/упаковка</p>
+              <div class="recommends-card-list__cart cart">
+                <p class="cart__cost">2 500 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+            <li class="recommends-card-list__element">
+              <img width="340" height="260" class="recommends-card-list__element--img" src="./image/halibut.jpg"/>
+              <p class="recommends-card-list__element--name">Филе палтуса</p>
+              <div class="recommends-card-list__cart cart">
+                <p class="cart__cost">2 800 Ꝑ/кг</p>
+                <div class="cart_button">
+                  <a href="#" class="cart_button__cost--link">В корзину</a>
+                  <img width="13" height="13" class="cart_button__cost--img" src="./image/cart.svg"/>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+  </section>
+  <section class="ceo-information">
+    <div class="ceo-information__container">
+      <p class="ceo-information__text-title">СЕО ТЕКСТ</p>
+      <p class="ceo-information__text1"> Самый известный текст-«рыба», называемый Lorem ipsum, имеет свои корни в 16-том веке. Lorem ipsum был создан на псевдо-латыни, которая приблизительно соответствует настоящей латыни. Этот текст содержит ряд настоящих латинских слов. Как и большинство других текстов, Lorem ipsum не имеет смысла, а лишь имитирует ритм большинства европейских языков использующих латиницу. Латинское происхождение и относительная бессмысленность текста Lorem ipsum хороши тем, что не привлекают к себе внимания и не отвлекают от дизайна.</p>
+      <p class="ceo-information__text2">  Недостатком является то обстоятельство, что в латыни некоторые буквы используются чаще или реже других, что создает другое изображение печати. Кроме того в латинском языке заглавная буква используется только в начале предложений. Тем самым Lorem ipsum не отображает написание, к примеру, имен собственных. Вследствии этого использование этого текста в качестве визуального заполнителя макета в испанском языке ограничено. Если вы хотите использовать рыбный текст для сравнения особенностей шрифтов, то имеет смысл выбрать текст содержащий, по возможности все буквы и типичные для языка специальные знаки.</p>
+      <p class="ceo-information__text3">  В настоящее время существует множество читаемых рыбных текстов. В большинстве случаев они используются только в целях заполнения места. Часто эти альтернативы классического Lorem ipsum занимательны и рассказывают небольшие, веселые или бессмысленные истории.</p>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__container">
+    <div class="footer__main">
+      <div class="main__information">
+        <div class="information__company">
+          <img width="254" height="32" class="company__logo-img" src="./image/logowhite.svg"/>
+          <p class="company__description">Продажа свежих морепродуктов
+            с доставкой по Москве и МО</p>
+          <img width="79" height="3" class="company__line" src="./image/line.svg"/>
+        </div>
+        <div class="information__questions">
+          <p class="questions__ask">Остались вопросы?</p>
+          <p class="questions__description">Оставьте заявку и наш менеджер
+            свяжется с вами в ближайшее время</p>
+          <button class="questions__application">Оставить заявку</button>
+        </div>
+      </div>
+      <div class="main__contacts">
+        <p class="contacts__title">Наши контакты</p>
+        <a href="tel:+74959795189" class="contacts__number">+7 495 979 51 89</a>
+        <button class="contacts__callback">Заказать обратный звонок</button>
+        <p class="contacts__adress">г.Москва, г.Зеленоград, к.1204</p>
+        <a href="mailto:info@kingikra.ru" class="contacts__email">info@kingikra.ru</a>
+        <p class="contacts__schedule">Работаем без выходных
+          с 9:00 до 18:00</p>
+      </div>
+      <div class="main__catalog">
+        <nav class="catalog__navigation ct-nav">
+          <ul class="ct-nav__list ct-nav-list">
+            <li class="ct-nav-list__element_first">
+              <a href="#" class="ct-nav-list__element-link">
+                Акции
+              </a>
+            </li>
+            <li class="ct-nav-list__element">
+              <a href="#" class="ct-nav-list__element-link">
+                Красная рыба
+              </a>
+            </li>
+            <li class="ct-nav-list__element">
+              <a href="#" class="ct-nav-list__element-link">
+                Креветки
+              </a>
+            </li>
+            <li class="ct-nav-list__element">
+              <a href="#" class="ct-nav-list__element-link">
+                Краб
+              </a>
+            </li>
+            <li class="ct-nav-list__element">
+              <a href="#" class="ct-nav-list__element-link">
+                Деликатесы
+              </a>
+            </li>
+            <li class="ct-nav-list__element">
+              <a href="#" class="ct-nav-list__element-link">
+                Рыба
+              </a>
+            </li>
+            <li class="ct-nav-list__element">
+              <a href="#" class="ct-nav-list__element-link">
+                Икра
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main__useful-information">
+        <p class="useful-information__title">Полезная информация</p>
+        <nav class="useful-information__navigation ui-nav">
+          <ul class="ui-nav__list ui-nav-list">
+            <li class="ui-nav-list__element_first">
+              <a href="#" class="ui-nav-list__element-link">
+                О kingikra
+              </a>
+            </li>
+            <li class="ui-nav-list__element">
+              <a href="#" class="ui-nav-list__element-link">
+                Условия доставки
+              </a>
+            </li>
+            <li class="ui-nav-list__element">
+              <a href="#" class="ui-nav-list__element-link">
+                Варианты оплаты
+              </a>
+            </li>
+            <li class="ui-nav-list__element">
+              <a href="#" class="ui-nav-list__element-link">
+                Гарантия качества
+              </a>
+            </li>
+            <li class="ui-nav-list__element">
+              <a href="#" class="ui-nav-list__element-link">
+                Полезные материалы
+              </a>
+            </li>
+            <li class="ui-nav-list__element">
+              <a href="#" class="ui-nav-list__element-link">
+                Рецепты
+              </a>
+            </li>
+            <li class="ui-nav-list__element">
+              <a href="#" class="ui-nav-list__element-link">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main__other-information">
+        <div class="information__newsletter">
+          <p class="newsletter__title">Наша рассылка</p>
+          <div class="newsletter__form">
+            <input class="form__input" placeholder="Ваш e-mail"/>
+            <button class="form__button">Подписаться</button>
+          </div>
+        </div>
+        <div class="information__pay">
+          <p class="pay__title">Принимаем к оплате</p>
+          <nav class="pay__navigation pay-nav">
+            <ul class="pay-nav__list pay-nav-list">
+              <li class="pay-nav-list__element_first">
+                <a href="#" class="pay-nav-list__element-link">
+                  <img width="23" height="23" class="pay-nav_logo-img" src="./image/pay.svg"/>
+                </a>
+              </li>
+              <li class="pay-nav-list__element">
+                <a href="#" class="pay-nav-list__element-link">
+                  <img width="23" height="23" class="pay-nav_logo-img" src="./image/wallet.svg"/>
+                </a>
+              </li>
+              <li class="pay-nav-list__element">
+                <a href="#" class="pay-nav-list__element-link">
+                  <img width="23" height="23" class="pay-nav_logo-img" src="./image/sber.svg"/>
+                </a>
+              </li>
+              <li class="pay-nav-list__element">
+                <a href="#" class="pay-nav-list__element-link">
+                  <img width="23" height="23" class="pay-nav_logo-img" src="./image/qiwi.svg"/>
+                </a>
+              </li>
+              <li class="pay-nav-list__element">
+                <a href="#" class="pay-nav-list__element-link">
+                  <img width="23" height="23" class="pay-nav_logo-img" src="./image/pay2.svg"/>
+                </a>
+              </li>
+              <li class="pay-nav-list__element">
+                <a href="#" class="pay-nav-list__element-link">
+                  <img width="105" height="23" class="pay-nav_logo-img" src="./image/robokassa.svg"/>
+                </a>
+              </li>
+              <li class="pay-nav-list__element">
+                <a href="#" class="pay-nav-list__element-link">
+                  <img width="49" height="16" class="pay-nav_logo-img" src="./image/visa.svg"/>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="information__social-media">
+          <p class="social-media__title">Мы с соц. сетях</p>
+          <nav class="social-media__navigation social-media-nav">
+            <ul class="social-media-nav__list social-media-nav-list">
+              <li class="social-media-nav-list__element">
+                <a href="#" class="social-media-nav-list__element-link">
+                  <img width="15" height="15" class="social-media-nav_logo-img" src="./image/facebook.svg"/>
+                </a>
+              </li>
+              <li class="social-media-nav-list__element">
+                <a href="#" class="social-media-nav-list__element-link">
+                  <img width="15" height="9" class="social-media-nav_logo-img" src="./image/vk.svg"/>
+                </a>
+              </li>
+              <li class="social-media-nav-list__element">
+                <a href="#" class="social-media-nav-list__element-link">
+                  <img width="8" height="13" class="social-media-nav_logo-img" src="./image/odnocklassniki.svg"/>
+                </a>
+              </li>
+              <li class="social-media-nav-list__element">
+                <a href="#" class="social-media-nav-list__element-link">
+                  <img width="13" height="13" class="company_logo-img" src="./image/in.svg"/>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="footer__additives">
+    <img width="1840" height="13" class="company_logo-img" src="./image/linelong.svg"/>
+    <nav class="additives__navigation additives-nav">
+      <ul class="additives-nav__list additives-nav-nav-list">
+        <li class="additives-nav-list__element">
+          <a href="#" class="additives-nav-list__element-link">
+            ©2014-2021 Kingikra.ru
+          </a>
+        </li>
+        <li class="additives-nav-list__element">
+          <a href="#" class="additives-nav-list__element-link">
+            ИНН: 773575455362
+          </a>
+        </li>
+        <li class="additives-nav-list__element">
+          <a href="#" class="additives-nav-list__element-link">
+            Пользовательское соглашение
+          </a>
+        </li>
+        <li class="additives-nav-list__element">
+          <a href="#" class="additives-nav-list__element-link">
+            Политика конфиденциальности
+          </a>
+        </li>
+        <li class="additives-nav-list__element">
+          <a href="#" class="additives-nav-list__element-link">
+            Разработано командой: 
+            Лаборатория Бизнеса
+          </a>
+        </li>
+      </ul>
+    </nav>
+    </div>
+    </div>
+  </footer>
+  </body>
+</html>
