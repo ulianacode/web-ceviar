@@ -36,29 +36,30 @@ body {
 
 .city__location-description {
     margin: 0;
+    width: 75px;
 }
 .top__navigation {
-    margin-left: 0px;
+    margin-left: 70px;
 }
 .nav__list {
     display: flex;
     list-style-type: none;
-    width: 1200px;
+    width: 1000x;
     font-size: 18px;
 }
 .nav-list__element {
     margin-left:  58px;
 }
 .nav-list__element_first {
-    margin-left: 100px  !important;
+    margin-left: 0px  !important;
 }
 .top__connection {
     display: flex;
     align-items: center;
-    margin-left: 0px;
+    margin-left: 40px;
 }
 .connection__number {
-    margin-right: 40px;
+    margin-left: 100px;
     width: 200px;
 
     font-size: 22px;
@@ -74,8 +75,7 @@ body {
     
     flex-grow: 1;
     height: 90px;
-    width: 100%;
-    
+    width: 100%; 
 }
 .middle__logo {
     display: flex;
@@ -94,6 +94,10 @@ body {
     color: rgb(90, 108, 125, 1);
 }
 .middle__input {
+    margin-left: 40px;
+    width: 562px;
+    height: 47px;
+
     color: rgb(90, 108, 125, 1);
     font-size: 15px;
     font-family: 'RoadRadio';
@@ -101,6 +105,39 @@ body {
 .middle__access {
     font-family: 'RoadRadio';
     font-weight: 900;
+    display: flex;
+    margin-right: 20px;
+    
+}
+.access__login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 130px;
+}
+.access__favourite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 130px;
+}
+.access__login-name {
+    text-decoration: none;
+}
+.access__favourite-name {
+    text-decoration: none;
+}
+.middle__recycle-bin {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.recycle-bin__description {
+    margin-left: 25px;
 }
 
 .bottom__navigation {
@@ -129,6 +166,9 @@ body {
 
     
     text-decoration: none; 
+}
+.access__login-img{
+    justify-content: center;
 }
 .access__login-name {
     color: rgb(0, 26, 52, 1);
