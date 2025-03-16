@@ -338,12 +338,11 @@ body {
     width: 1820px;
     margin: 0 auto;
 }
-.open-card__preview {
-    margin-top: 40px;
+.main__preview {
     margin-left: 20px;
     display: flex;
     flex-direction: row;
-    width: 300px;
+    width: 1000px;
 }
 .preview__three-img {
     flex-grow: 1; 
@@ -433,6 +432,8 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between; 
+    align-items: flex-start; 
 }
 .open-card__moving {
     display: flex;
@@ -441,11 +442,131 @@ body {
     margin-top: 25px;
     margin-left: 15px;
 }
+.open-card__main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 1800px;
+}
+.main__bonus {
+    display: flex;
+
+    align-items: center; 
+    flex-direction: column;
+
+    margin-left: 40px;
+    background-color: #30BA3126;
+    width: 360px;
+    height: 551px;
+}
+.bonus__title {
+    width: 170px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+.bonus__rubl {
+    margin-top: 30px;
+}
+.bonus__bonus-account {
+    font-size: 16px;
+    margin-top: 30px;
+}
+.bonus__car {
+    margin-top: 30px;
+}
+.bonus__free-delivery {
+    width: 160px;
+    text-align: center;
+    margin-top: 30px;
+}
+.remainder__title {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #97A9BA;
+}
+.remainder__number {
+    font-size: 24px;
+    margin-top: -5px;
+}
+.progress__min-max {
+    display: flex;
+    justify-content: space-between
+}
+.main__buy {
+    margin-left: 35px;
+    align-items: center; 
+}
+.buy__title {
+    margin: 0px;
+    font-size: 24px;
+}
+.buy__description {
+    margin-top: 5px;
+    font-size: 15px;
+}
+.buy__rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.rating__stars__list {
+    display: flex; 
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+}
+.rating__title {
+    margin-left: 25px;
+}
+.price__sale {
+    font-size: 18px;
+    margin: 0px;
+    text-decoration: line-through;
+}
+.price__actual {
+    font-size: 30px;
+    margin: 0px;
+    color: #F15E22;
+}
+.buy__btns {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 25px;;
+}
+.btns__add-to-cart {
+    width: 337px;
+    height: 60px;
+    border: 0px;
+    background-color: #F15E22;
+
+    font-size: 15px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+.btns__buy-one-click {
+    width: 337px;
+    height: 60px;
+
+    margin-top: 10px;
+    border: 0px;
+    background-color: #EFF3F6;
+
+    font-size: 15px;
+    color: #F15E22;
+    
+    cursor: pointer;
+}
+.btns__delivery {
+    display: flex;
+    justify-content: center;
+}
 .moving__path {
     display: flex;
     align-items: center;
     margin-left: 10px;
-
 }
 .moving__path__list {
     display: flex;
@@ -461,7 +582,6 @@ body {
 .path-list__element--img {
     margin-left: 5px; 
 }
-
 
 .path-list__element--name {
     color: rgb(0, 26, 52, 1);
@@ -667,7 +787,4 @@ body {
     padding-left: 90px;
     
 }
-.open-card__bonus {
-    background-color: #30BA3126;
-    width: 300px;
-}
+
