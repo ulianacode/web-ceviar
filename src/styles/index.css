@@ -24,52 +24,72 @@ body {
     display: flex;
     margin-left: 20px;
 
+    width: 190px;
+
 }
 .city__location-name {
-    margin-left: 13px;
+    margin-left: 12px;
 
     color: rgb(0, 26, 52, 1);
     font-family: 'Montserrat', sans-serif;
 
     font-size: 15px;
+    font-weight: 700;
+
+    text-decoration: underline;
+    cursor: pointer;
 }
 .city__location-img {
-    margin-left: 25px;
+    margin-left: 5px;
 }
 
 .city__location-description {
     margin: 0;
-    width: 75px;
+    width: 90px;
+
+    font-family: 'Montserrat', sans-serif;
 }
 .top__navigation {
-    margin-left: 70px;
+    margin-left: 60px;
 }
 .nav__list {
     display: flex;
     list-style-type: none;
-    width: 1000x;
+    justify-content: space-between;
+
+    width: 1030px;
     font-size: 18px;
 }
 .nav-list__element {
-    margin-left:  58px;
+    margin-left:  40px;
+    font-family: 'Montserrat', sans-serif;
 }
 .nav-list__element_first {
-    margin-left: 0px  !important;
+    margin-left: 5px  !important;
+    font-family: 'Montserrat', sans-serif;
 }
 .top__connection {
+    width: 500px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 .connection__number {
-    margin-left: 100px;
-    width: 200px;
+    width: 250px;
+
+    font-family: 'RoadRadio', sans-serif;
 
     font-size: 22px;
 }
 .connection__application {
     height: 50px;
     width: 190px;
+
+    cursor: pointer;
+}
+.connection__number-name {
+    text-decoration: none;
 }
 .header__middle {
     display: flex;
@@ -220,10 +240,25 @@ body {
     background-color: rgb(241, 94, 34, 1);
     border-width: 0px;
     border-radius: 4px;
-    font-size: 16px;
-    font-weight: 900;
 
     margin-left: 20px;
+}
+
+.application__title {
+    display: flex; 
+    font-size: 16px;
+    font-weight: 900;
+}
+.application__title::before {
+    content: "";
+
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    margin-left: 10px; 
+    margin-right: 10px;
+    background-image: url("../../image/catalog.svg");
+    background-repeat: no-repeat;
 }
 .nav {
     font-size: 15px;
@@ -905,11 +940,22 @@ body {
 }
 
 .contacts__number {
+    display: flex;
     margin-top: 30px;
     font-size: 22px;
     font-weight: 700;
     text-decoration: none;
     color: #F15E22;
+}
+.contacts__number::before {
+    content: "";
+
+    display: inline-block;
+    width: 19px;
+    height: 20px;
+    margin-right: 10px; 
+    background-image: url("../../image/phonecall.svg");
+    background-repeat: no-repeat;
 }
 .contacts__callback {
     margin-top: 10px;
@@ -927,15 +973,27 @@ body {
 
     cursor: pointer;
 }
+
 .contacts__adress {
+    display: flex; 
     margin-top: 30px;
     font-size: 15px;
     font-weight: 500;
-
     color: #FFFFFF;
-
 }
+.contacts__adress::before {
+    content: "";
+
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    margin-right: 10px; 
+    background-image: url("../../image/loc.svg");
+    background-repeat: no-repeat;
+}
+
 .contacts__email {
+    display: flex; 
     margin-top: 25px;
     text-decoration: none;
     font-size: 15px;
@@ -943,15 +1001,36 @@ body {
 
     color: #F15E22;
 }
-.contacts__schedule {
-    width: 160px;
+.contacts__email::before {
+    content: "";
 
-    margin-top: 35px;
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    margin-right: 10px; 
+    background-image: url("../../image/mail.svg");
+    background-repeat: no-repeat;
+}
+.contacts__schedule {
+    display: flex; 
+    width: 190px;
+
+    margin-top: 30px;
 
     font-size: 15px;
     font-weight: 500;
 
     color: #FFFFFF;
+}
+.contacts__schedule::before {
+    content: "";
+
+    display: inline-block;
+    width: 30px;
+    height: 18px;
+    margin-right: 10px; 
+    background-image: url("../../image/clock.svg");
+    background-repeat: no-repeat;
 }
 .main__catalog {
     margin-left: 150px;
