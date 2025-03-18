@@ -22,7 +22,7 @@ body {
 
 .top__city {
     display: flex;
-    margin-left: 20px;
+    margin-left: 23px;
 
     width: 190px;
 
@@ -73,23 +73,31 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 80px;
+    margin-left: 110px;
+}
+.connection__number-img {
+    margin-right: 5px;
 }
 .connection__number {
     width: 250px;
 
     font-family: 'RoadRadio', sans-serif;
 
-    font-size: 22px;
+    font-size: 18px;
 }
 .connection__application {
     height: 50px;
-    width: 190px;
+    width: 205px;
 
     cursor: pointer;
+    margin-right: 75px;
 }
 .connection__number-name {
     text-decoration: none;
+}
+.header__line {
+    margin-top: 0px;
+    width: 100%;
 }
 .header__middle {
     display: flex;
@@ -99,8 +107,6 @@ body {
     flex-grow: 1;
     height: 90px;
     width: 100%; 
-
-    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .middle__logo {
     display: flex;
@@ -109,12 +115,12 @@ body {
     margin-left: 10px;
 }
 .middle__logo-name {
-    width: 230px;
+    width: 250px;
 
     margin-left: 15px;
 
     color: rgb(0, 26, 52, 1);
-    font-family: 'Montserrat', sans-serif;
+    line-height: 22px;
     font-weight: 500;
     color: rgb(90, 108, 125, 1);
 }
@@ -123,12 +129,14 @@ body {
     width: 562px;
     height: 47px;
 
-    color: rgb(90, 108, 125, 1);
+    color: #5A6C7D;
     font-size: 15px;
     background-color: #EFF3F6;
     border: 0px;
-
-    font-family: 'Montserrat', sans-serif;
+    line-height: 100%;
+    font-weight: 700;
+    letter-spacing: 4%;
+    outline: none;
 }
 .middle__access {
     font-family: 'Montserrat', sans-serif;
@@ -286,7 +294,7 @@ body {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    height: 70px;
+    height: 63px;
     width: 100%;
 }
 .bottom-nav {
